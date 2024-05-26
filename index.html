@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body class="w-screen h-screen bg-[#F4D04E] flex justify-center">
+  <div class="w-[327px] h-[501px] mt-[155px] mx-[24px] rounded-[20px] border-[1px] p-[24px] gap-[24px] bg-[#FFFFFF] [border:1px_solid_#111111] [box-shadow:8px_8px_0px_0px_#000000] lg:w-[384px] lg:h-[522px] hover:[box-shadow:16px_16px_0px_0px_#000000] hover:cursor-pointer">
+    <div class="flex">
+      <img src="./assets/images/blogimagelg.png" alt="blog-image" class="hidden lg:flex">
+      <img src="./assets/images/blogimage.png" alt="blog-image" class="lg:hidden sm:flex">
+    </div>
+    <div>
+      <div style="font-family: Figtree" class="bg-[#F4D04E] w-[73px] h-[26px] lg:w-[82px] lg:h-[29px] rounded-[4px] py-[4px] px-[12px] gap-[8px] font-extrabold text-[12px] lg:text-[14px] leading-[18px] lg:leading-[21px] mt-[24px] mb-[12px] flex justify-center items-center">
+        Learning
+      </div>
+      <div style="font-family: Figtree" class="font-medium text-[12px] lg:text-[14px] leading-[18px] lg:leading-[21px] text-[#111111] mb-[12px]">
+        Published 21 Dec 2023
+      </div>
+      <div style="font-family: Figtree" class="font-extrabold text-[20px] lg:text-[24px] leading-[30px] lg:leading-[36px] text-[#111111] mb-[12px] hover:text-[#F4D04E]">
+        HTML & CSS foundations
+      </div>
+      <div style="font-family: Figtree" class="font-medium text-[14px] lg:text-[16px] leading-[21px] lg:leading-[24px] text-[#7F7F7F] mb-[24px]">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </div>
+    </div>
+    <div class="flex flex-row justify-start items-center gap-[12px] mb-[24px]">
+      <span><img src="./assets/images/image-avatar.webp" alt="avatar"  class="w-[32px] h-[32px]"></span>
+      <span style="font-family: Figtree" class="font-extrabold text-[14px] leading-[21px] text-[#111111]">
+        Greg Hooper
+      </span>
+    </div>
+    <div class="mt-[50px]">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">KeeratiNon</a>.
+    </div>
+  </div>
+</body>
+</html>
